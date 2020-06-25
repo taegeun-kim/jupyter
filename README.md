@@ -10,7 +10,7 @@ EXPOSE 80
 EXPOSE 443
 
 
-##build
+## build
 user@DESKTOP-S33351E MINGW64 /c/test (master)
 $ docker build --tag  tageunkim/nginx .
 Sending build context to Docker daemon  63.49kB
@@ -35,5 +35,5 @@ Successfully built 16e4e809301f
 Successfully tagged tageunkim/nginx:latest
 SECURITY WARNING: You are building a Docker image from Windows against a non-Windows Docker host. All files and directories added to build context will have '-rwxr-xr-x' permissions. It is recommended to double check and reset permissions for sensitive files and directories.
 
-##docker file
+## docker file
 https://hub.docker.com/repository/docker/tageunkim/nginx
